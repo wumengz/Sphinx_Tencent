@@ -1,0 +1,14 @@
+typing_extensions==4.12.2
+openai==0.27.2
+uiautomator2==3.1.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+tenacity==8.4.2
+anthropic==0.29.0
+pyshine==0.0.9
+regex==2024.11.6
+matplotlib==3.9.0
+pillow==10.3.0
+dominate==2.9.1
+colorama==0.4.6
+dashscope==1.20.0

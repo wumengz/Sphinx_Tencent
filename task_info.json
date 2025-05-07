@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "go to my account profile",
+        "apps": [
+            "wechat"
+        ]
+    },
+    {
+        "id": 2,
+        "description": "send message 'test' to one of my friends",
+        "apps": [
+            "wechat"
+        ]
+    },
+    {
+        "id": 3,
+        "description": "open help and feedbacks",
+        "apps": [
+            "wechat"
+        ]
+    }
+]

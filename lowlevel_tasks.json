@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "app": "ticktick",
+        "instruction": "Add a new task.",
+        "groundtruth": {
+            "type": "click",
+            "element": {
+                "NAF": "true",
+                "index": "0",
+                "text": "",
+                "resource-id": "com.ticktick.task:id/add_task_btn",
+                "class": "android.widget.ImageButton",
+                "package": "com.ticktick.task",
+                "content-desc": "",
+                "checkable": "false",
+                "checked": "false",
+                "clickable": "true",
+                "enabled": "true",
+                "focusable": "true",
+                "focused": "false",
+                "scrollable": "false",
+                "long-clickable": "false",
+                "password": "false",
+                "selected": "false",
+                "visible-to-user": "true",
+                "bounds": "[624,924][736,1036]",
+                "drawing-order": "2",
+                "hint": "",
+                "display-id": "0"
+            }
+        }
+    }
+]
