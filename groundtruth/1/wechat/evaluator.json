@@ -1,0 +1,20 @@
+[
+    {
+        "type": "stoppage",
+        "match_type": "equal",
+        "match_rules": {
+            "text": "\u4e2a\u4eba\u4fe1\u606f"
+        },
+        "check_type": "equal",
+        "check_rules": {}
+    },
+    {
+        "type": "stoppage",
+        "match_type": "equal",
+        "match_rules": {
+            "text": "\u6211\u7684\u5730\u5740"
+        },
+        "check_type": "equal",
+        "check_rules": {}
+    }
+]

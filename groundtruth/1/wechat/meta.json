@@ -1,0 +1,58 @@
+[
+    {
+        "type": "click",
+        "element": {
+            "index": "3",
+            "text": "",
+            "resource-id": "com.tencent.mm:id/nvt",
+            "class": "android.widget.RelativeLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "true",
+            "enabled": "true",
+            "focusable": "true",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "visible-to-user": "true",
+            "bounds": "[1080,2998][1440,3200]",
+            "drawing-order": "4",
+            "hint": "",
+            "display-id": "0"
+        }
+    },
+    {
+        "type": "click",
+        "element": {
+            "index": "0",
+            "text": "",
+            "resource-id": "com.tencent.mm:id/jlx",
+            "class": "android.widget.RelativeLayout",
+            "package": "com.tencent.mm",
+            "content-desc": "",
+            "checkable": "false",
+            "checked": "false",
+            "clickable": "false",
+            "enabled": "true",
+            "focusable": "false",
+            "focused": "false",
+            "scrollable": "false",
+            "long-clickable": "false",
+            "password": "false",
+            "selected": "false",
+            "visible-to-user": "true",
+            "bounds": "[86,346][1440,580]",
+            "drawing-order": "1",
+            "hint": "",
+            "display-id": "0"
+        }
+    },
+    {
+        "type": "stop",
+        "element": null
+    }
+]

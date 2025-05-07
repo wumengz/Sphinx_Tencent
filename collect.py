@@ -269,48 +269,6 @@ def CollectEvaluator(trace_dir: Path):
         with open(trace_dir / "evaluator.json", 'w', encoding="utf-8") as f:
             json.dump(evaluators, f, indent=4)
     
-def CollectSkill(trace_dir: Path):
-    if (trace_dir / "skills.json").exists():
-        print("\nSkills already exists. Skip collecting skills.")
-    else:
-        print("=" * 20)
-        print("Start collecting skills\n")
-        with open(trace_dir / "meta.json") as f:
-            meta_data = json.load(f)
-        length = len(meta_data) - 1
-        start = 0
-        skills = []
-        while start < length:
-
-            print("\n\n")
-            for i in range(start, length):
-                element = meta_data[i]["element"]
-                message = f"index-{i - start + 1} ===== type: {meta_data[i]['type']}"
-                if meta_data[i]['type'] == "input":
-                    message += f", text: {meta_data[i]['message']}"
-                if element is not None:
-                    message += ", element: { "
-                    resource_id = element["resource-id"]
-                    if resource_id != "":
-                        message += f"resource-id: {resource_id} , "
-                    content_desc = element["content-desc"]
-                    if content_desc != "":
-                        message += f"content-desc: {content_desc} , "
-                    text = element["text"]
-                    if text != "":
-                        message += f"text: {text} , "
-                    message += "}"
-                print(message)
-
-            skill_len = int(input("\nPlease enter the length of the skill: \n"))
-            skill_name = input("\nPlease enter the name of the skill: \n")
-            skill = {"name": skill_name, "length": skill_len, "start_index": start, "end_index": start + skill_len - 1}
-            skills.append(skill)
-            start += skill_len
-            assert start <= length
-        with open(trace_dir / "skills.json", "w", encoding="utf-8") as f:
-            json.dump(skills, f, indent=4)
-
 
 MODE = "PRE"
 # MODE = "POST"
@@ -361,6 +319,4 @@ if __name__ == "__main__":
 
     EvaluateTrace(trace_dir)
 
-    CollectSkill(trace_dir)
-    
     controller.stop_app()

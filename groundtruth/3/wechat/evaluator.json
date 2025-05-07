@@ -1,0 +1,11 @@
+[
+    {
+        "type": "stoppage",
+        "match_type": "equal",
+        "match_rules": {
+            "text": "\u610f\u89c1\u53cd\u9988"
+        },
+        "check_type": "equal",
+        "check_rules": {}
+    }
+]

@@ -1,0 +1,18 @@
+[
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.LauncherUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.LauncherUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.ui.LauncherUI"
+    ],
+    [
+        "com.tencent.mm",
+        "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI"
+    ]
+]
